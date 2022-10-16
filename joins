@@ -1,0 +1,34 @@
+Concept Joins-
+
+Q1.What would be the output of Below :
+a)INNER JOIN O/P and Total No of rows
+b)LEFT OUTER JOIN O/P assume table1 is left table
+c)RIGHT OUTER JOIN O/P assume table2 is right table
+d)Full Outer join O/P
+
+Input -
+Table1-
+id_column
+1
+1
+1
+1
+null
+
+Table2-
+id_column
+1
+1
+1
+null
+
+
+Answer:
+sample sql to run and understand the output-
+
+1)12 rows containing all '1'
+1)12 rows containing all '1' plus 1 row containing null from left table.
+1)12 rows containing all '1' plus 1 row containing null from right table.
+1)12 rows containing  all '1' plus 2 rows having nulls one from  left table and one from right table.
+
+
