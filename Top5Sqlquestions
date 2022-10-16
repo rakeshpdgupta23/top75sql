@@ -1,0 +1,26 @@
+Concept Joins-
+
+Q1.What would be the output of Below :
+a)INNER JOIN output and Total No of rows
+b)LEFT OUTER JOIN assume table1 is left table
+c)RIGHT OUTER JOIN assume table2 is right table
+d)Full Outer join
+Input -
+Table1-
+id_column
+1
+1
+1
+1
+null
+
+Table2-
+id_column
+1
+1
+1
+null
+
+
+Answer:
+1)
